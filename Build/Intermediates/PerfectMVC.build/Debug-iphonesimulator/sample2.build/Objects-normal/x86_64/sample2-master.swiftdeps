@@ -1,9 +1,0 @@
-version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
-options: "adcb7ec3c141555226d9ba0f4656c1a3"
-inputs: 
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/WebViewController.swift"
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/AppDelegate.swift"
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/QiitaListView.swift"
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/QitaListViewController.swift"
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/QiitaViewModel.swift"
-- "/Users/yamasakitomohiro/Desktop/warkingFolder/seminar/seminar2/sample2/sample2/WebApi.swift"
