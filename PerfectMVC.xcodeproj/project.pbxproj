@@ -10,7 +10,6 @@
 		7A465D4B1B80C2B2005AB6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D4A1B80C2B2005AB6A9 /* AppDelegate.swift */; };
 		7A465D521B80C2B2005AB6A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A465D511B80C2B2005AB6A9 /* Images.xcassets */; };
 		7A465D551B80C2B2005AB6A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A465D531B80C2B2005AB6A9 /* LaunchScreen.xib */; };
-		7A465D611B80C2B2005AB6A9 /* sample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D601B80C2B2005AB6A9 /* sample2Tests.swift */; };
 		7A465D701B80C31C005AB6A9 /* QiitaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D6F1B80C31C005AB6A9 /* QiitaListView.swift */; };
 		7A465D721B80C323005AB6A9 /* QiitaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D711B80C323005AB6A9 /* QiitaViewModel.swift */; };
 		7A465D741B80C32B005AB6A9 /* QitaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D731B80C32B005AB6A9 /* QitaListViewController.swift */; };
@@ -18,25 +17,12 @@
 		7A465D7A1B80C49E005AB6A9 /* WebApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A465D791B80C49E005AB6A9 /* WebApi.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7A465D5B1B80C2B2005AB6A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A465D3D1B80C2B2005AB6A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A465D441B80C2B2005AB6A9;
-			remoteInfo = sample2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7A465D451B80C2B2005AB6A9 /* PerfectMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A465D491B80C2B2005AB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A465D4A1B80C2B2005AB6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A465D511B80C2B2005AB6A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A465D541B80C2B2005AB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7A465D5A1B80C2B2005AB6A9 /* PerfectMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A465D5F1B80C2B2005AB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A465D601B80C2B2005AB6A9 /* sample2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample2Tests.swift; sourceTree = "<group>"; };
 		7A465D6F1B80C31C005AB6A9 /* QiitaListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaListView.swift; sourceTree = "<group>"; };
 		7A465D711B80C323005AB6A9 /* QiitaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaViewModel.swift; sourceTree = "<group>"; };
 		7A465D731B80C32B005AB6A9 /* QitaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QitaListViewController.swift; sourceTree = "<group>"; };
@@ -52,13 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A465D571B80C2B2005AB6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				7A465D471B80C2B2005AB6A9 /* sample2 */,
-				7A465D5D1B80C2B2005AB6A9 /* sample2Tests */,
 				7A465D461B80C2B2005AB6A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				7A465D451B80C2B2005AB6A9 /* PerfectMVC.app */,
-				7A465D5A1B80C2B2005AB6A9 /* PerfectMVCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				7A465D491B80C2B2005AB6A9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7A465D5D1B80C2B2005AB6A9 /* sample2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7A465D601B80C2B2005AB6A9 /* sample2Tests.swift */,
-				7A465D5E1B80C2B2005AB6A9 /* Supporting Files */,
-			);
-			path = sample2Tests;
-			sourceTree = "<group>";
-		};
-		7A465D5E1B80C2B2005AB6A9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7A465D5F1B80C2B2005AB6A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,24 +157,6 @@
 			productReference = 7A465D451B80C2B2005AB6A9 /* PerfectMVC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A465D591B80C2B2005AB6A9 /* PerfectMVCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A465D671B80C2B2005AB6A9 /* Build configuration list for PBXNativeTarget "PerfectMVCTests" */;
-			buildPhases = (
-				7A465D561B80C2B2005AB6A9 /* Sources */,
-				7A465D571B80C2B2005AB6A9 /* Frameworks */,
-				7A465D581B80C2B2005AB6A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7A465D5C1B80C2B2005AB6A9 /* PBXTargetDependency */,
-			);
-			name = PerfectMVCTests;
-			productName = sample2Tests;
-			productReference = 7A465D5A1B80C2B2005AB6A9 /* PerfectMVCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,10 +168,6 @@
 				TargetAttributes = {
 					7A465D441B80C2B2005AB6A9 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					7A465D591B80C2B2005AB6A9 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 7A465D441B80C2B2005AB6A9;
 					};
 				};
 			};
@@ -247,7 +185,6 @@
 			projectRoot = "";
 			targets = (
 				7A465D441B80C2B2005AB6A9 /* PerfectMVC */,
-				7A465D591B80C2B2005AB6A9 /* PerfectMVCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +196,6 @@
 			files = (
 				7A465D551B80C2B2005AB6A9 /* LaunchScreen.xib in Resources */,
 				7A465D521B80C2B2005AB6A9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A465D581B80C2B2005AB6A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,23 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A465D561B80C2B2005AB6A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A465D611B80C2B2005AB6A9 /* sample2Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7A465D5C1B80C2B2005AB6A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A465D441B80C2B2005AB6A9 /* PerfectMVC */;
-			targetProxy = 7A465D5B1B80C2B2005AB6A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7A465D531B80C2B2005AB6A9 /* LaunchScreen.xib */ = {
@@ -351,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -416,40 +330,6 @@
 			};
 			name = Release;
 		};
-		7A465D681B80C2B2005AB6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = sample2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = PerfectMVCTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample2.app/sample2";
-			};
-			name = Debug;
-		};
-		7A465D691B80C2B2005AB6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = sample2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = PerfectMVCTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample2.app/sample2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,15 +347,6 @@
 			buildConfigurations = (
 				7A465D651B80C2B2005AB6A9 /* Debug */,
 				7A465D661B80C2B2005AB6A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A465D671B80C2B2005AB6A9 /* Build configuration list for PBXNativeTarget "PerfectMVCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A465D681B80C2B2005AB6A9 /* Debug */,
-				7A465D691B80C2B2005AB6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
